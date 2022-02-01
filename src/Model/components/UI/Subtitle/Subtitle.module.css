@@ -1,0 +1,11 @@
+﻿.subtitle {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 130%;
+	text-transform: uppercase;
+	color: #B6B6B6;
+	width: 100%;
+	padding-top: 40px;
+}

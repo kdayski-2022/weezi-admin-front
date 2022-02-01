@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Exo%202:300,400,500,700');
+
+body {
+  margin: 0;
+  font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiDrawer-root {
+  background-color: #f1f1f1;
+}
+
+#main-content {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root {
+  /* font-family: 'Exo 2'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.MuiPaper-root.MuiAppBar-root {
+  box-shadow: none;
+  background-color: #2d0f19;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  background-color: #2d0f19;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.MuiTableCell-root.MuiTableCell-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.MuiTableCell-root.MuiTableCell-head
+  .MuiButtonBase-root.MuiTableSortLabel-root {
+  color: #ffffff;
+}
+
+.MuiTableCell-root.MuiTableCell-head .MuiSvgIcon-root.MuiTableSortLabel-icon {
+  color: #ffffff !important;
+}
+
+.MuiTableCell-root.MuiTableCell-head .MuiButtonBase-root.MuiIconButton-root {
+  color: #ffffff;
+}
+
+.MuiInputBase-input.MuiInput-input#username {
+  border: 1px solid #2D0F19;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 7px 12px;
+}
+.MuiInputLabel-formControl.MuiInputLabel-shrink#username-label {
+  transform: translate(0, 1.5px) scale(0.75);
+}
+.MuiInputLabel-formControl#username-label {
+  transform: translate(8px, 30px) scale(1);
+}
+.MuiInputLabel-formControl.MuiInputLabel-shrink#password-label {
+  transform: translate(0, 1.5px) scale(0.75);
+}
+.MuiInputLabel-formControl#password-label {
+  transform: translate(8px, 30px) scale(1);
+}
+
+.MuiInputBase-input.MuiInput-input#password {
+  border: 1px solid #2D0F19;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 7px 12px;
+}
+#main-content .list-page .MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+  display: flex !important;
+}
