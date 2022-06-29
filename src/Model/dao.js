@@ -13,10 +13,11 @@ import CustomListActions from '../lib/CustomListActions'
 
 const labels = {
     name: "Название",
+    address: "Адрес",
+    networkId: "Network ID",
     description: "Описание",
-    proxyDaoId: "Адрес в proxy",
-    tvl: "TOTAL VALUE LOCKED",
-    apy: "APY",
+    userAddress: "User Address",
+    proxyDaoId: "Адрес в proxy"
 }
 export const DaoList = props => (
     <List {...props} actions={<CustomListActions />}>
@@ -30,12 +31,12 @@ export const DaoList = props => (
 const simpleForm = 
 <SimpleForm>
     <TextInput source="name" fullWidth label={labels.name} />
+    <TextInput source="address" fullWidth label={labels.address} />
+    <TextInput source="networkId" fullWidth label={labels.networkId} />
     <TextInput source="proxyDaoId" fullWidth label={labels.proxyDaoId} />
     <TextInput source="description" fullWidth label={labels.description} />
-    {/* <TextInput source="tvl" fullWidth label={labels.tvl} />
-    <TextInput source="apy" fullWidth label={labels.apy} />
-    <TextInput source="withdrawalAddress" fullWidth />
-    <TextInput source="depositAddress" fullWidth /> */}
+    <TextInput source="userAddress" fullWidth label={labels.userAddress} />
+    
 </SimpleForm>
 export const DaoEdit = props => (
     <Edit {...props}>
