@@ -9,6 +9,9 @@
     "url": "https://git.rsw-systems.pp.ua/gennom/academy-admin-front.git"
   },
   "author": "fanil",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
