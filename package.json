@@ -10,7 +10,7 @@
   },
   "author": "fanil",
   "engines": {
-    "node": "16.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
